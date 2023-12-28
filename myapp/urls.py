@@ -6,6 +6,7 @@ urlpatterns = [
     path('signup/', views.signup, name='signup'),
     path('login/', views.login, name='login'),
     path('housedetails/', views.housedetails, name='housedetails'),
-    path('house/<int:house_id>/', views.house_details, name='house_details'),  # Add this line for house details
+    path('house/<int:house_id>/', views.house_details, name='house_details'),
+    path('user_rent/', views.user_rent, name='user_rent'),
 
 ]

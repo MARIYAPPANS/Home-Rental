@@ -46,5 +46,6 @@ def house_details(request, house_id):
     houses = get_object_or_404(House, pk=house_id)
     return render(request, 'house_details.html', {'houses': houses})
   
-  
+def user_rent(request):
+    return render(request,"user_rent.html")
  
