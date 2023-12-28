@@ -8,5 +8,4 @@ urlpatterns = [
     path('housedetails/', views.housedetails, name='housedetails'),
     path('house/<int:house_id>/', views.house_details, name='house_details'),
     path('user_rent/', views.user_rent, name='user_rent'),
-
 ]
